@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "84819018981",
+    "project_id": "eventcalendar-efb2a",
+    "storage_bucket": "eventcalendar-efb2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84819018981:android:b4026cebbd79b8a587c00c",
+        "android_client_info": {
+          "package_name": "com.example.eventcalendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84819018981-sje6fr99of7kud606pj4v9kur0e61or6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eventcalendar",
+            "certificate_hash": "792ae2db80c4a1f7c6f1d8f8b78f25df7a82b6b9"
+          }
+        },
+        {
+          "client_id": "84819018981-fd6jue8847amfmi37ardtlh9cujpsqck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6EXYHG0XgeLlJMOIw54V7UdYlqvj5XAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84819018981-fd6jue8847amfmi37ardtlh9cujpsqck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

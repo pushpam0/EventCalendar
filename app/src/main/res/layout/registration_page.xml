@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/teal_200">
+
+    <EditText
+        android:maxLength="10"
+        android:id="@+id/mobile_rester"
+        android:layout_width="340dp"
+        android:layout_height="74dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="mobile"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="296dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/mobile_rester"
+        android:id="@+id/registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get otp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+
+
+</RelativeLayout>

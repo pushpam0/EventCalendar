@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  android:layout_gravity="center"
+    android:background="@color/teal_200">
+
+
+
+    <EditText
+        android:hint="otp"
+        android:id="@+id/otp_verify_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+       android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/otp_verify_id"
+        android:id="@+id/verify_button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify" />
+
+
+</RelativeLayout>
